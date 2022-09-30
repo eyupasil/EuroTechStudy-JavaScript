@@ -1,0 +1,29 @@
+#map {
+  height: 70vh;
+}
+.info.legend.leaflet-control {
+  height: 32px;
+}
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  background: rgba(226, 230, 227, 0.8);
+  border-radius: 5px;
+  height: 85px;
+  border: solid 2px #0f2d53;
+}
+.info h4 {
+  margin: 0 0 5px;
+  color: #483d8b;
+}
+
+#display {
+	width: 100%;
+	background-color: azure;
+	border: 3px solid dodgerblue;
+	text-align: center;
+	box-shadow: 10px 10px 5px lightblue;
+}
+

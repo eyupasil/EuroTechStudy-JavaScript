@@ -1,0 +1,86 @@
+body {
+  font-family: "Marcellus", serif;
+  background-image: url(ajanda.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: rgb(119, 1, 204);
+  font-size: 3rem;
+}
+ul {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  border: 4px;
+  border-radius: 8%;
+  background: gainsboro;
+  padding: auto;
+  list-style: none;
+  font-size: 2rem;
+  color: rgb(119, 1, 204, 10);
+  font-weight: bolder;
+  margin-top: 12rem;
+}
+/* li {
+  display: flex;
+  justify-content:center ;
+} */
+.myButton {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+  padding-right: 10px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.completed{
+    color: gray;
+    text-decoration: line-through;
+    opacity: 50%;
+}
+.input{
+  width: 80%;
+padding: 6px 12px;
+background: #019ad2;
+border: 1px solid rgb(60, 63, 68);
+border-radius: 4px;
+font-size: 36px;
+color: rgb(247, 248, 248);
+height: 46px;
+appearance: none;
+transition: border 0.15s ease 0s;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: rgb(100, 153, 255);
+}
+

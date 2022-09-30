@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../5.Hafta/H5G2/Population-Map-master"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "3.Gun",
+    "liveServer.settings.port": 5501
+  }
+}

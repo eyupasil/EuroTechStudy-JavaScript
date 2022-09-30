@@ -1,0 +1,17 @@
+img{
+    margin-top: 3rem;
+    width: 50vw;
+    height: 50vh;
+}
+h1:hover{
+    font-size: 6rem;
+    color:darkorange
+}
+button {
+border: 2px solid fuchsia;
+    border-radius: 50%;
+    background-color: azure;
+}
+.ders{
+    font-size: 40px;
+}
